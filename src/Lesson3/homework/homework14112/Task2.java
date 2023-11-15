@@ -1,4 +1,4 @@
-package Lesson3.homework14112;
+package Lesson3.homework.homework14112;
 /*
 **Задача 2.**
 Объявите 10 переменных типа int со значениями 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.

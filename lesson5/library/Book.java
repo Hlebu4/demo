@@ -1,4 +1,4 @@
-package library;
+package Lesson4.library;
 
 /*
 Написать программу, которая:

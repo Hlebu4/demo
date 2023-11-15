@@ -1,4 +1,4 @@
-package Lesson3.homework14113;
+package Lesson3.homework.homework14113;
 /*
 **Задача 3.**
 Пусть цена товара A обычно составляет 1000 руб, и товара B составляет 500 руб.

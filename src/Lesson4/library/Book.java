@@ -1,4 +1,4 @@
-package library;
+package Lesson4.library;
 
 /*
 Написать программу, которая:
@@ -24,20 +24,27 @@ package library;
 
 public class Book {
 
-    String author;
-    String name;
-    int pages;
-    int numberInCatalog;
-    boolean inLibrary;
+    public String author;
+    public String name;
+    public int pages;
+    public int numberInCatalog;
+    public boolean inLibrary;
 
-    public Book(String author, String name, int pages,
-                int numberInCatalog,boolean inLibrary) {
 
+    public Book(String author, String name) {
+        this.author = author;
+        this.name = name;
+    }
+
+
+
+    public Book(String author, String name, int pages, int numberInCatalog, boolean inLibrary) {
         this.author = author;
         this.name = name;
         this.pages = pages;
         this.numberInCatalog = numberInCatalog;
         this.inLibrary = inLibrary;
     }
-
 }
+
+

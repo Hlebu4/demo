@@ -1,4 +1,4 @@
-package Lesson3.homework14114;
+package Lesson3.homework.homework14114;
 
 public class PogodaDemo {
     public static void main(String[] args) {

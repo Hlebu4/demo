@@ -1,4 +1,4 @@
-package Calculator2;
+package Lesson3.Calculator2;
 
 public class CalculatorNew {
 
