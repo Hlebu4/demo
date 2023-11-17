@@ -1,4 +1,4 @@
-package Lesson3.homework.homework14111;
+package Lesson3.homework.task1;
 
 /*
 **Задача 1.**

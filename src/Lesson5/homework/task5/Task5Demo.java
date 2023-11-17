@@ -5,10 +5,10 @@ public class Task5Demo {
 
         Task5 result = new Task5(13,7);
 
-        System.out.println(result.sum());
-        System.out.println(result.sub());
-        System.out.println(result.mul());
-        System.out.println(result.div());
+        System.out.println("Результат сложения - " + result.sum());
+        System.out.println("Результат вычитания - " + result.sub());
+        System.out.println("Результат умножения - " + result.mul());
+        System.out.println("Результат деления - " + result.div());
 
 
 
