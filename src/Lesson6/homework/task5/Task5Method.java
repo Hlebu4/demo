@@ -21,21 +21,27 @@ package Lesson6.homework.task5;
 Снято 1, осталось = 0
  */
 public class Task5Method {
+    public static void main(String[] args) {
+
+        int n = 21;
+        int n1 = n;
+        int x = 2;
+        int y = 0;
 
 
-        public static void sumDay (int n) {
-            int days = 0;
-            while (n > 1) {
-                for (int i = n / 2; i >= 1; i--) {
-                    if (n % i == 0) {
-                        n -= i;
-                        days++;
-                        break;
-                    }
+        while (n > 0){
 
-                } System.out.println(days);
+            for (int n1; n1 < n; n1++) {
+
+            }  if (n1 % x <= 0){
+
             }
+
 
         }
 
+
+
+
+    }
 }
