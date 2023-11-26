@@ -4,7 +4,7 @@ public class CalculatorDemo {
     public static void main(String[] args) {
 
 
-        Calculator calc = new Calculator();
+        lesson3.Calculator1.Calculator calc = new lesson3.Calculator1.Calculator();
         calc.x = 5;
         calc.y = 7;
 

@@ -3,7 +3,7 @@ package lesson3.Calculator2;
 public class CalculatorNewDemo {
     public static void main(String[] args) {
 
-        CalculatorNew calc = new CalculatorNew();
+        lesson3.Calculator2.CalculatorNew calc = new lesson3.Calculator2.CalculatorNew();
 
             int result = calc.sum(5 , 3);
             System.out.println("Summa = " + result);
