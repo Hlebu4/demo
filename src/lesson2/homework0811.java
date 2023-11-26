@@ -3,6 +3,7 @@ package lesson2;
 public class homework0811{
     public static void main(String[] args) {
 
+        char xChar = 'g';
         byte xByte = 127;
         short xShort = 32767;
         int xInt = 333333;
@@ -10,6 +11,7 @@ public class homework0811{
         float xFloat = 555.5555f;
         double xDouble = 6666.66666;
 
+        System.out.println("xChar = " + xChar);
         System.out.println("xByte = " + xByte);
         System.out.println("xShort = " + xShort);
         System.out.println("xInt = " + xInt);
@@ -25,13 +27,15 @@ public class homework0811{
 
         System.out.println("dano: 452");
 
-        int x = 8 / 2;
-        int y = x + 1;
-        int z = y - x + 1;
+        int number = 452 ;
 
-        System.out.println("x = " + x);
+        int x =  number % 10 ;
+        int y = number % 100 / 10;
+        int z = number / 100;
+
+        System.out.println("x = " + z);
         System.out.println("y = " + y);
-        System.out.println("z = " + z);
+        System.out.println("z = " + x);
 
 
     }
