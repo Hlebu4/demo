@@ -1,4 +1,4 @@
-package homework.task3;
+package lesson8.homework.task3;
 
 import java.util.Arrays;
 
@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class Task3Demo {
     public static void main(String[] args) {
 
-        Task3Service tak3service = new Task3Service();
+        homework.task3.Task3Service tak3service = new homework.task3.Task3Service();
         int [] arrayTask3 = tak3service.arrayTask3random();
         System.out.println(Arrays.toString(arrayTask3));
 

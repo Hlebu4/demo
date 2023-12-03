@@ -1,4 +1,4 @@
-package homework.task5;
+package lesson8.homework.task5;
 
 import java.util.Arrays;
 
@@ -11,7 +11,7 @@ import java.util.Arrays;
 public class Task5Demo {
     public static void main(String[] args) {
 
-        Task5Service task5Service = new Task5Service();
+        Task5Service  task5Service = new Task5Service();
         int [] arrayTask5 = task5Service.arrayRandom();
         System.out.println(Arrays.toString(arrayTask5));
 
