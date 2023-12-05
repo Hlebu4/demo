@@ -1,6 +1,4 @@
-package lesson11.homework;
-
-import lesson11.ArraySort;
+package lesson11;
 
 import java.util.Arrays;
 
