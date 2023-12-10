@@ -1,10 +1,9 @@
-package homework.task1;
+package lesson8.homework.task1;
 /*
 **Перевернуть массив:** Создайте метод, который принимает массив целых чисел и
     возвращает его в перевернутом порядке.
     Например, если входной массив `[1, 2, 3, 4]`, то результат должен быть `[4, 3, 2, 1]`.
  */
-
 import java.util.Arrays;
 import java.util.Random;
 
@@ -21,7 +20,7 @@ public class Task1Demo {
         System.out.println("============================");
 
 
-        ArrayTurn arrayTurn = new ArrayTurn();
+         ArrayTurn arrayTurn = new ArrayTurn();
          int [] arrayResult = arrayTurn.turn(arrayTask1);
          System.out.println(Arrays.toString(arrayResult));
     }
