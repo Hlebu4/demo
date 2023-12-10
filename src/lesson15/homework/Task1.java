@@ -13,7 +13,7 @@ public class Task1 {
         String[] array = { "one" , "two" , "three" , "four" , "five" };
         System.out.println(Arrays.toString(array));
         int n = array.length-1;
-        for (int i = 0; i < array.length /2; i++) {
+        for (int i = 0; i < array.length / 2; i++) {
         counter = array[i];
         array[i] = array[n];
         array[n]=counter;

@@ -6,13 +6,13 @@ public class task4Demo {
                 Task4Service service = new Task4Service();
                 int[][] matrix = service.array(9);
 
-                System.out.println("Исходная матрица:");
+                System.out.println("Исходная матрица ");
                 service.printMatrix(matrix);
 
                 service.transposeMatrix(matrix);
 
                 System.out.println();
-                System.out.println("Транспонированная матрица:");
+                System.out.println("Транспонированная матрица ");
                 service.printMatrix(matrix);
             }
 }
