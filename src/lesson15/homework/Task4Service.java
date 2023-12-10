@@ -33,7 +33,7 @@ public class Task4Service {
         }
     }
 
-    // не знал как распечатать и подсмотрел в chatGpt
+    // не знал как распечатать, подсмотрел...
     public void printMatrix(int[][] matrix) {
         for (int[] row : matrix) {
             for (int value : row) {
