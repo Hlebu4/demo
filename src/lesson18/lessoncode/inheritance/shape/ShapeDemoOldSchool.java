@@ -1,5 +1,7 @@
 package lesson18.lessoncode.inheritance.shape;
 
+import java.util.Arrays;
+
 public class ShapeDemoOldSchool {
     public static void main(String[] args) {
         Circle circle1 = new Circle("Circle1", 5);
@@ -35,6 +37,8 @@ public class ShapeDemoOldSchool {
         }
 
         System.out.println("Сумма площадей всех фигур = " + allAreas);
+
+
 
     }
 }

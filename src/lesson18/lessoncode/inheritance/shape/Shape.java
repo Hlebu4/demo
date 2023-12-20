@@ -18,4 +18,10 @@ abstract class Shape {
 
     abstract double calculatorPerimeter();
 
+    @Override
+    public String toString() {
+        return "Shape{" +
+                "title='" + title + '\'' +
+                '}';
+    }
 }
