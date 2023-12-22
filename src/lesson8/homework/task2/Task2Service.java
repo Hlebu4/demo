@@ -1,4 +1,4 @@
-package homework.task2;
+package lesson8.homework.task2;
 
 public class Task2Service {
 

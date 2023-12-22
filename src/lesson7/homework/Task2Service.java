@@ -4,19 +4,22 @@ import java.util.Random;
 
 public class Task2Service {
 
-    public int accountMoneyRandom() {
         Random random = new Random();
-        return random.nextInt(10000);
-    }
 
 
-    public int bankService(int balance) {
-        for (int i = balance / 2; i > 0; i--) {
-            if (balance % i == 0) {
-                return i;
+    public int bankService() {
+        int balance = 21;
+        System.out.println(" sum in account " + balance);
+        int days = 0;
+            for (int i = balance /2 ; balance > 0; i--) {
+                if (balance % i == 0) {
+                    balance = balance - i;
+                    days ++;
+                    System.out.println (" days " + days + " snyatie " + i );
+                    System.out.println(" ostatok " + balance);
+                }
             }
-        }
-        return 1;
+        return days;
     }
 
 }

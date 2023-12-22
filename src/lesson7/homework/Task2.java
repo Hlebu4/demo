@@ -28,18 +28,8 @@ public class Task2 {
     public static void main(String[] args) {
 
         Task2Service task2Service = new Task2Service();
-        int days = 0;
-        int accountMoney = task2Service.accountMoneyRandom();
-        System.out.println( " sum in account " + accountMoney);
-
-        while ( accountMoney > 0) {
-            int withDraw = task2Service.bankService(accountMoney);
-            accountMoney = accountMoney - withDraw;
-            days ++;
-            System.out.println(" day " + days + " withdraw " + withDraw + " remainder  " + accountMoney);
-        }
-        System.out.println("need  - " + days + " days ");
-
+        int days = task2Service.bankService();
+        System.out.println(days);
     }
 
 }
