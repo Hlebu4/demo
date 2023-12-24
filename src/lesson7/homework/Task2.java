@@ -1,7 +1,9 @@
-package homework;
+package lesson7.homework;
 
 
 import lesson7.homework.Task2Service;
+
+import java.util.Random;
 
 /*
 Снять деньги
@@ -26,10 +28,10 @@ import lesson7.homework.Task2Service;
  */
 public class Task2 {
     public static void main(String[] args) {
+        Random random = new Random();
 
         Task2Service task2Service = new Task2Service();
-        int days = task2Service.bankService();
-        System.out.println(days);
+        System.out.println(" для снятия всей суммы нужно " + task2Service.sumDay(random.nextInt(0,1000)) + " дней ");
     }
 
 }

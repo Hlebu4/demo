@@ -4,22 +4,25 @@ import java.util.Random;
 
 public class Task2Service {
 
-        Random random = new Random();
+        public int sumDay (int balance){
+            int day = 0;
+            System.out.println(" было на счету " + balance);
+            while (balance > 0){
+                day ++;
+                System.out.println( " сняли со счета " + bankService(balance));
+                balance -= bankService(balance);
+                System.out.println(" осталось на счете " + balance);
+            }
+            return day;
+        }
 
-
-    public int bankService() {
-        int balance = 21;
-        System.out.println(" sum in account " + balance);
-        int days = 0;
-            for (int i = balance /2 ; balance > 0; i--) {
+         public int bankService(int balance) {
+            for (int i = balance /2 ; i > 0; i--) {
                 if (balance % i == 0) {
-                    balance = balance - i;
-                    days ++;
-                    System.out.println (" days " + days + " snyatie " + i );
-                    System.out.println(" ostatok " + balance);
+                    return i;
                 }
             }
-        return days;
-    }
+        return 1;
+         }
 
 }

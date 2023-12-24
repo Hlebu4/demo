@@ -1,4 +1,5 @@
-package lesson15.lessoncode.service;
+package lesson15.lessoncode.service.utils;
+
 
 import lesson15.lessoncode.entity.Card;
 

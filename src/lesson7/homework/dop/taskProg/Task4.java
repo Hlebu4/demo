@@ -9,6 +9,7 @@ public class Task4 {
 
     boolean leap = false;
     public boolean leapYear (int year){
+        System.out.println(year);
         if (year % 4 ==0){
             if (year % 100 == 0){
                 if (year % 400 == 0){
