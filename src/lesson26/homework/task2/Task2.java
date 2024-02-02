@@ -1,5 +1,6 @@
 package lesson26.homework.task2;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Objects;
@@ -16,17 +17,23 @@ import java.util.Objects;
 public class Task2 {
 
     public boolean verificationText (String text){
-        ArrayList<String> textList = new ArrayList<>();
-        for (int i = 0; i < text.length(); i++) {
-            textList.add(""+text.charAt(i));
+        ArrayDeque<Character> textDeque = new ArrayDeque<>();
+        for (char bracket : text.toCharArray()){
+            textDeque.add(bracket);
         }
-        for (int i = 0; i < textList.size()/2; i++) {
-            if (!Objects.equals(textList.get(i), textList.get(textList.size()-1 - i))){
-                return false;
-            }
+        System.out.println(textDeque);
+
+        while (!textDeque.isEmpty()){
+            char firstBracket = textDeque.pollFirst();
+            char lastBracket = textDeque.pollLast();
+            if (firstBracket == '(' && lastBracket ==')' || firstBracket ==')' && lastBracket == '('
+                || firstBracket == '{' && lastBracket =='}' || firstBracket =='}' && lastBracket == '{'
+                || firstBracket == '[' && lastBracket ==']' || firstBracket ==']' && lastBracket == '['){
+            } else return false;
         }
         return true;
     }
+
     public static void main(String[] args) {
 
         Task2 task2 = new Task2();
